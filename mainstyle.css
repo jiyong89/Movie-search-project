@@ -3,7 +3,6 @@
 body {
   font-family: Arial, sans-serif;
   background-image: url(bgb.jpg);
-  background-color: #bdbcbc;
   margin: 0;
   padding: 20px;
   display: flex;
@@ -69,4 +68,14 @@ body {
 
 #search-button:hover {
   background-color: #0056b3;
+}
+
+h1 {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+h1 > a {
+  text-decoration: none; /* 링크 밑줄 제거 */
+  color: inherit; /* 링크의 색상 제거*/
 }
