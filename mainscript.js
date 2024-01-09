@@ -1,13 +1,4 @@
-const apiKey = "04ef5d9a7cbedf2f226fdb4e1df8dcaf";
-
-const options = {
-  method: "GET",
-  headers: {
-    accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwNGVmNWQ5YTdjYmVkZjJmMjI2ZmRiNGUxZGY4ZGNhZiIsInN1YiI6IjY1OTdjYjA0NjBjNTFkNTZhZTk3ODk2NyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.E74qw8AmPA2mtYWStYabWcgFYvKHUrPT0V4phPBbdOc",
-  },
-};
+const options = key;
 
 const moviesContainer = document.getElementById("movies-container");
 const searchInput = document.getElementById("search-input");
